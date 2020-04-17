@@ -9,7 +9,22 @@ const guardarData = () => {
     })
 }
 
+const cargarData = () => {
+    try {
+        listadoPorHacer = require('../data/data.json');
+    } catch {
+        listadoPorHacer = [];
+    }
+
+}
+
+const getListado = () => {
+    cargarData();
+    return listadoPorHacer;
+}
+
 const crear = (descripcion) => {
+    cargarData();
     let porHacer = {
         descripcion: descripcion,
         completado: false
@@ -21,5 +36,6 @@ const crear = (descripcion) => {
 }
 
 module.exports = {
-    crear
+    crear,
+    getListado
 }
