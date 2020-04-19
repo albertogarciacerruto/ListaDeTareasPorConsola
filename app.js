@@ -12,15 +12,20 @@ switch (comando) {
         break;
     case 'listar':
         let listado = porHacer.getListado();
+        console.log('========== LISTA DE TAREAS =========='.green);
         for (let tarea of listado) {
-            console.log('========== LISTA DE TAREAS =========='.green);
-            console.log(tarea.descripcion);
+
+            console.log('Tarea: ', tarea.descripcion);
             console.log('Estado: ', tarea.completado);
-            console.log('====================================='.geen);
+            console.log('====================================='.green);
         }
+
         break;
     case 'actualizar':
-        console.log('Actualizar una tarea');
+        let actualizado = porHacer.actualizar(argv.descripcion, argv.completado);
+        break;
+    case 'borrar':
+        let borrado = porHacer.deleteData(argv.descripcion);
         break;
     default:
         console.log('Comando invalido');

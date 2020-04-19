@@ -26,7 +26,31 @@ _Ejecuta la app en tu maquina con el comando:_
 node app
 ```
 
+## Uso de la APP 🚀
 
+_El comando para crear una tarea es:_
+
+```
+node app crear -d "Nombre de la tarea"
+```
+
+_El comando para actualizar una tarea es:_
+
+```
+node app actualizar -d "Nombre de la tarea" -c true
+```
+
+_El comando para eliminar una tarea es:_
+
+```
+node app borrar -d "Nombre de la tarea"
+```
+
+_El comando para listar las tareas es:_
+
+```
+node app listar
+```
 ## Construido con 🛠️
 
 _NodeJs_
