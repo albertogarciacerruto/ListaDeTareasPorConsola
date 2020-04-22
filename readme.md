@@ -1,6 +1,6 @@
 # Lista De Tareas Por Hacer - App de Consola 
 
-_Proyecto que permite gestionar las directivas deportivas bajo la organizacion Liga Central Universitaria de Venezuela_
+_Proyecto que permite gestionar tareas por hacer en consola de comandos_
 
 ## Comenzando 🚀
 

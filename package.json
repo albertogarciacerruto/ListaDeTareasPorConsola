@@ -1,15 +1,24 @@
 {
-  "name": "tareasporhacer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "yargs": "^15.3.1"
-  }
+    "name": "tareasporhacer",
+    "version": "1.0.0",
+    "description": "_Proyecto que permite gestionar las directivas deportivas bajo la organizacion Liga Central Universitaria de Venezuela_",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "yargs": "^15.3.1"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/albertogarciacerruto/ListaDeTareasPorConsola.git"
+    },
+    "bugs": {
+        "url": "https://github.com/albertogarciacerruto/ListaDeTareasPorConsola/issues"
+    },
+    "homepage": "https://github.com/albertogarciacerruto/ListaDeTareasPorConsola#readme"
 }
